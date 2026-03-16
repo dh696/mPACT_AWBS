@@ -1037,6 +1037,7 @@ void setup()
   Serial.begin(115200);
   // delay for stability:
   delay(3000);
+  Serial.flush();
   Serial.println("\nAutomatic Wake Bar System\nStarting...");
 
   // UART Port 2 for stepper drivers:
